@@ -1,0 +1,10 @@
+.DS_Store
+*.pyc
+*.pyo
+.hg
+.hgignore
+.bzr
+.bzrignore
+psd
+config.py
+app.yaml

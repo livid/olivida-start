@@ -1,0 +1,142 @@
+@charset "utf-8"
+
+/*
+	OLIVIDA Start Page CSS
+	
+	Author: Livid <v2ex.livid@me.com>
+	Web: http://picky.olivida.com/
+	
+	This is the preferred look-n-feel for our start page.
+	
+	The best way to wipe IE6 from this planet is to forget it all since the beginning of your every new project.
+*/
+
+html {
+	height: 100%;
+}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "STHeiti";
+	background-color: #e2e2e2;
+	min-width: 900px;
+	background-image: url("/static/img/tile02.jpg");
+}
+
+a:link, a:visited, a:active {
+	color: #1c7fdb;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #1785eb;
+	text-decoration: underline;
+}
+
+a.orange:link, a.orange:visited, a.orange:active {
+	color: #ff9900;
+	text-decoration: none;
+}
+
+a.orange:hover {
+	color: #e18700;
+	text-decoration: underline;
+}
+
+/* IDs */
+
+#Root {
+	width: 800px;
+	margin: 30px auto 0px auto;
+	background-color: #fff;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 2px solid rgba(0,0,0,0.05);
+	padding: 10px;
+	font-size: 15px;
+	-webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.6);
+	-moz-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.6);
+}
+
+#Bottom {
+	width: 800px;
+	margin: 0px auto 20px auto;
+	font-size: 10px;
+	color: #fff;
+	padding: 5px 10px 0px 10px;
+	text-align: right;
+}
+
+/* CLASSes */
+
+.sep {
+	margin: 10px 0px 10px 0px;
+	border-top: 1px solid #f0f0f0;
+}
+
+.column {
+	float: left;
+	font-size: 12px;
+	margin-right: 10px;
+	background-color: #f9f9f9;
+	padding: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.column_title {
+	color: #ccc;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+.clear {
+	clear: both;
+}
+
+ul.nav {
+	padding: 0px;
+	margin: 6px 0px 0px 0px;
+	list-style: none;
+}
+
+ul.nav li {
+	padding: 4px 0px 0px 0px;
+	font-size: 14px;
+}
+
+.sl {
+	padding: 3px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	width: 400px;
+	font-size: 16px;
+	color: #000;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	font-family: "Panic Sans", Luxi Mono, "Courier New", Monaco;
+}
+
+.olive {
+	color: #3b3;
+}
+
+.super.button {
+	background-image: url("/static/img/bg_blended.png");
+	padding: 4px 15px 4px 15px;
+	border: 1px solid rgba(0,0,0,.25);
+	border-bottom-color: rgba(0,0,0,.35);
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	font-size: 12px;
+	line-height: 12px;
+}
+
+.normal.button { background-color: #fff; color: #333; text-shadow: 0px 1px 1px #fff; text-decoration: none; font-weight: bold; }
+.normal.button:hover { background-color: #f0f0f0; color: #333; text-shadow: 0px 1px 1px #fff; text-decoration: none; text-decoration: none; font-weight: bold; cursor: pointer; }
